@@ -25,7 +25,7 @@ try:
     print("Website 3 loaded")
     gDriver4.get(weburl)
     print("Website 4 loaded")
-    time.sleep(30)
+    time.sleep(1200)
     gDriver1.quit()
     gDriver2.quit()
     gDriver3.quit()
