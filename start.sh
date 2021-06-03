@@ -1,7 +1,6 @@
 #!/bin/sh
-while True;
-do
- python start.py || echo "App crashed... restarting..." >&2
- echo "Press Ctrl-C to quit." && sleep 1
+while true ; do
+    python3 start.py
+    sleep 25
+    echo "slept for 25 seconds now starting"
 done
-
