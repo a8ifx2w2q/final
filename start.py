@@ -30,6 +30,6 @@ try:
     gDriver2.quit()
     gDriver3.quit()
     gDriver4.quit()
-    print("Sucessful")
+    print("Successful")
 except:
     print("failed :/")
