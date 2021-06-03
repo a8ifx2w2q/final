@@ -27,6 +27,9 @@ try:
     print("Website 4 loaded")
     time.sleep(30)
     gDriver1.quit()
+    gDriver2.quit()
+    gDriver3.quit()
+    gDriver4.quit()
     print("Sucessful")
 except:
     print("failed :/")
